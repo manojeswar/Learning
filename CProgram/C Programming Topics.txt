@@ -1,0 +1,216 @@
+C Programming
+=============
+Data Types: Primary and Secondary
+Primary:
+character: %c : 1 
+integer: %d : 2
+float: %f :4
+double: %lf : 8
+void: 0
+
+Secondary:
+array
+pointer
+structure
+union
+enum
+
+Modifiers:
+signed and unsigned
++128 to 127 and 0 to 255
+
+Extended Data Types:
+signed character: %c : 1
+unsigned character: %c : 1
+short signed integer: %d : 2
+short unsigned integer: %u : 2
+long signed integer: %ld : 4
+long unsigned integer: %lu : 4
+float: %f : 4
+double: %lf : 8
+long double: %Lf : 10
+
+Constant: 
+integer
+Real constant
+character constant
+Logical constant
+String Constant
+
+Variables:
+Local and Global
+initialization
+
+Storage class:
+automatic
+register
+static
+external
+
+Operators:
+arithmetic: +, -, *, %
+incremental pre and post: ++, --
+decremental pre and post: ++, --
+modulo: %
+relational: <, >, <=, >=, ==, !=
+Logical: &&, ||
+bitwise: ~, >>, <<, &, |, ^
+conditional: (a?b:c)
+comma: ,
+sizeof
+assignment: =
+addressof: &
+value of address: *
+negation: !
+
+Expressions:
+type conversion: [higher type will be converted] 
+int+char = int
+ex: c=(float)a/b
+
+Control Statements:
+if, if else, else if, nested if
+switch, default, break, continue, goto
+
+Loop:
+for(init, conditional, increment)
+while(variable)
+do{ }while(variable)
+
+Console I/O functions:
+Formatted functions:
+char, int, float, string: scanf()
+char, int, float, string: printf()
+Unformatted functions:
+int, float: none
+string: gets(), puts()
+char:getch(),getche(),getchar(), putch(),putchar() [getche - echo the character in console]
+escape sequence: \n, \b, \f, \', \\, \t, \r, \a, \"
+sprintf: stores the value in the character array
+ex:
+char str[20];
+sprintf(str,"%d %c,i,a);
+
+Array:
+Arrays in Detail 
+Multidimensional Arrays 
+Two-dimensional Arrays 
+Initializing Two-Dimensional Arrays 
+Accessing Two-Dimensional Array Elements 
+Passing Arrays to Functions 
+Return Array from a Function 
+Pointer to an Array 
+
+Single and multiple
+array declaration
+access array elements
+enter data into array
+array initialization
+array and strings
+2D array, multi dimensional array
+
+Functions:
+General fucntion
+funtion with arguments
+function declaration and prototypes
+call by value and reference
+scope rules of function
+calling functions with arrays
+passing entire array to function
+argc and argv
+recursion
+
+Pointers:
+& and * operators
+expressions, assignments
+pointer arithmetic
+pointer comparison
+dynamic memory allocation
+pointer vs array
+pointers and 2d array
+array of pointers
+pointers to pointers
+pointers to functions
+functions r`eturning pointers
+function with variable number of arguments
+
+Structures:
+Basics of structures
+Defining a Structure 
+Accessing Structure Members 
+Structures as Function Arguments 
+Pointers to Structures 
+Bit Fields 
+
+
+
+preprocessor
+
+Header
+
+Type casting
+
+Error handling
+
+Variable Arguments
+
+Memory management
+
+Command line argument
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Data Structures
+
+
+Traverse
+insert [front, last, any possition]
+delete [front, last, any possition]
+update [front, last, any possition]
+search 
+
+
+
+
+
+
+Array
+Stack
+	Push
+	Pop
+Queue
+Linked List
+
+Trees
+Hashing
+Heap
+Graph
+Matrix
+
+Searching
+	Linear
+	Binary
+	
+Sorting
+	Bubble
+	Selection
+	Insertion
+	Quick
+	Merge
+	Heap
+	Shell
+
+
+Algorithms
+
+
+
+
+
+
+
+
+
+
+
